@@ -3,7 +3,7 @@
 
 <h2>Introduction</h2>
 <p> <b>BAT Intel Gatherer</b> is a batch script file that runs a set of given commands and compiles the information gathered into one <b>.txt</b> file. </p>
-<p> It runs on any device that is capable of executing a batch script. You can even run it from a <b>portable device</b>. </p>
+<p> It runs on any device that is capable of executing a batch script (i.e. <b>Windows ONLY</b>). You can even run it from a <b>portable device</b>. </p>
 
 <h2>How to run</h2>
 <p>Either you can <b>download</b> this repository, or you can <b>copy paste</b> the batch script code in <b>Notepad</b>, and save the file with a <b>.bat</b></p>
