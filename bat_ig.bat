@@ -34,5 +34,5 @@ ECHO	 YJGS8P"Y888P"Y888P"Y888P"Y8888P
 ECHO	  Y888   '8'   Y8P   '8'   888Y
 ECHO	   '8o          V          o8'
 ECHO	    `                     `
-ECHO ascii from https://www.asciiart.eu/
+ECHO ascii art from https://www.asciiart.eu/
 PAUSE
