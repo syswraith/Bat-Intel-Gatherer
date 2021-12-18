@@ -4,6 +4,7 @@
 <h2>Introduction</h2>
 <p> <b>BAT Intel Gatherer</b> is a batch script file that runs a set of given commands and compiles the information gathered into one <b>.txt</b> file. </p>
 <p> It runs on any device that is capable of executing a batch script (i.e. <b>Windows ONLY</b>). You can even run it from a <b>portable device</b>. </p>
+<p> Please note that it is important to <b>run the batch file in a folder of its own</b>. If not, make sure there aren't any <b>.txt</b> files in the directory, as it can interefere with the output file. </p>
 
 <h2>Features</h2>
 <p><b>1.</b> (ipconfig) Network adapter info & Private IP</p>
