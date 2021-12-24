@@ -1,5 +1,5 @@
 # Bat-Intel-Gatherer
-
+![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/syswriath/Bat-Intel-Gatherer/)
 
 <h2>Introduction</h2>
 <p> <b>BAT Intel Gatherer</b> is a batch script file that runs a set of given commands and compiles the information gathered into one <b>.txt</b> file. </p>
