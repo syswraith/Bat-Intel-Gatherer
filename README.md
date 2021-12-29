@@ -18,6 +18,7 @@
 
 <h2>How to run</h2>
 <p>Either you can <b>download</b> this repository, or you can <b>copy paste</b> the batch script code in <b>Notepad</b>, and save the file with a <b>.bat</b></p>
+<p>Remember to run it in a <b>seperate folder</b>.</p>
 <p><b>1.</b> Click on the batch file. Run it as <b>administrator</b> if you prefer.</p>
 <p><b>2.</b> The file will run. Let it.</p>
 <img src="loading.png">
