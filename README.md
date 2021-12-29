@@ -1,5 +1,4 @@
 # Bat-Intel-Gatherer
-![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https://github.com/syswriath/Bat-Intel-Gatherer/)
 
 <h2>Introduction</h2>
 <p> <b>BAT Intel Gatherer</b> is a batch script file that runs a set of given commands and compiles the information gathered into one <b>.txt</b> file. </p>
@@ -13,6 +12,9 @@
 <p><b>4.</b> (netstat -aon) Internal port scan with PID</p>
 <p><b>5.</b> (systeminfo) System info (hardware, ownership, network card, etc)</p>
 <p><b>6.</b> (net user) User Account info</p>
+<p><b>7.</b> (tasklist) Task List</p>
+<p><b>8.</b> (ipconfig /displaydns) Display DNS records</p>
+<p><b>9.</b> (netsh wlan export profile key=clear) Exports WIFI profiles with passwords!</p>
 
 <h2>How to run</h2>
 <p>Either you can <b>download</b> this repository, or you can <b>copy paste</b> the batch script code in <b>Notepad</b>, and save the file with a <b>.bat</b></p>
