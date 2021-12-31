@@ -1,27 +1,38 @@
-# Bat-Intel-Gatherer
+# Bat Intel Gatherer
 
-<h2>Introduction</h2>
-<p> <b>BAT Intel Gatherer</b> is a batch script file that runs a set of given commands and compiles the information gathered into one <b>.txt</b> file. </p>
-<p> It runs on any device that is capable of executing a batch script (i.e. <b>Windows ONLY</b>). You can even run it from a <b>portable device</b>. </p>
-<p> Please note that it is important to <b>run the batch file in a folder of its own</b>. If not, make sure there aren't any <b>.txt</b> files in the directory, as it can interefere with the output file. </p>
 
-<h2>Features</h2>
-<p><b>1.</b> (ipconfig) Network adapter info & Private IP</p>
-<p><b>2.</b> (nslookup myip.opendns.com resolver1.opendns.com) Public IP</p>
-<p><b>3.</b> (netsh wlan show profiles) Network Profiles ('profile name=' doesn't work on portable devices when trying to export, but is displayed on the screen when run through cmd itself.)</p>
-<p><b>4.</b> (netstat -aon) Internal port scan with PID</p>
-<p><b>5.</b> (systeminfo) System info (hardware, ownership, network card, etc)</p>
-<p><b>6.</b> (net user) User Account info</p>
-<p><b>7.</b> (tasklist) Task List</p>
-<p><b>8.</b> (ipconfig /displaydns) Display DNS records</p>
-<p><b>9.</b> (netsh wlan export profile key=clear) Exports WIFI profiles with passwords!</p>
+## Introduction
 
-<h2>How to run</h2>
-<p>Either you can <b>download</b> this repository, or you can <b>copy paste</b> the batch script code in <b>Notepad</b>, and save the file with a <b>.bat</b></p>
-<p>Remember to run it in a <b>seperate folder</b>.</p>
-<p><b>1.</b> Click on the batch file. Run it as <b>administrator</b> if you prefer.</p>
-<p><b>2.</b> The file will run. Let it.</p>
-<img src="loading.png">
-<p><b>3.</b> When you see the ASCII banner, the process has ended. Press any key to exit.</p>
-<img src="ascii-banner.png">
-<p><b>4.</b> There will be another file in the directory where the batch file is located, named "<b>systeminfo.txt</b>". Open this file to find the intel.</p>
+**BAT Intel Gatherer** is a batch script file that runs a set of given commands and compiles the information gathered into **one .txt file**.
+It runs on any device that is capable of executing a **batch script** (i.e. Windows ONLY). You can even run it from a **portable device**.
+### Please note: is important to run the batch file in a **folder of its own**. If not, make sure there aren't any .txt files in the directory, as it can interfere with the output file.
+
+
+## Features
+
+1. (ipconfig) Network adapter info & Private IP
+2. (nslookup myip.opendns.com resolver1.opendns.com) Public IP
+3. (netsh wlan show profiles) Network Profiles ('profile name=' doesn't work on portable devices when trying to export, but is displayed on the screen when run through cmd itself.)
+4. (netstat -aon) Internal port scan with PID
+5. (systeminfo) System info (hardware, ownership, network card, etc)
+6. (net user) User Account info
+7. (tasklist) Task List
+8. (ipconfig /displaydns) Display DNS records
+9. (netsh wlan export profile key=clear) Exports WIFI profiles with passwords!
+
+
+##  How to run
+
+Either you can **download this repository**, or you can copy paste the batch script code in a text editor, and save the file with a **.bat extension**.
+**Remember to run it in a separate folder.**
+
+1. Click on the batch file. Run it as administrator if you prefer.
+2. The file will run. Let it.
+
+![Startup](/loading.png)
+
+3. When you see the ASCII banner, the process has ended. Press any key to exit.
+
+![The end](ascii-banner.png)
+
+4. There will be another file in the directory where the batch file is located, named "**systeminfo.txt**". Open this file to find the intel.
