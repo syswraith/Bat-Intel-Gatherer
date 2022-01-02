@@ -2,6 +2,9 @@
 TITLE Running bat intel gatherer
 COLOR C
 
+md Systeminfo
+cd Systeminfo
+
 net user > userinfo.txt
 systeminfo > sysinfo.txt
 ipconfig /all > ipinfo.txt
