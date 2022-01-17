@@ -31,9 +31,9 @@ copy/b *txt systeminfo.txt
 del infosofar.txt
 del netshinfosofar.txt
 
-REM BAT intel gatherer by syswriath.
-REM https://syswriath.github.io/
-REM https://github.com/syswriath
+REM BAT intel gatherer by syswraith.
+REM https://syswraith.github.io/
+REM https://github.com/syswraith
 
 CLS
 ECHO AND THE BAT LIVES TO SEE YET ANOTHER DAY!
@@ -42,7 +42,7 @@ ECHO	   .o888P     Y8o8Y     Y888o.
 ECHO	  d88888      88888      88888b
 ECHO	 d888888b_  _d88888b_  _d888888b
 ECHO	 8888888888888888888888888888888
-ECHO  BAT INTEL GATHERER BY SYSWRIATH
+ECHO  BAT INTEL GATHERER BY SYSWRAITH
 ECHO	 8888888888888888888888888888888
 ECHO	 YJGS8P"Y888P"Y888P"Y888P"Y8888P
 ECHO	  Y888   '8'   Y8P   '8'   888Y
