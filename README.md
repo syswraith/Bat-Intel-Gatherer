@@ -33,7 +33,4 @@ Either you can **download this repository**, or you can copy paste the batch scr
 ![Startup](/loading.png)
 
 3. When you see the ASCII banner, the process has ended. Press any key to exit.
-
-![The end](ascii-banner.png)
-
 4. There will be another folder where the file "**systeminfo.txt**" is located. Open this file to find the intel.
